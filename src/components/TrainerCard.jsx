@@ -3,7 +3,7 @@ import React from "react";
 function TrainerCard() {
   return (
     <div class="flex justify-center font-oxygen">
-      <div class="bg-babyblue opacity-80 border-black border-2 rounded-lg p-8 max-w-4xl mx-8 my-12 r">
+      <div class="bg-babyblue opacity-80 border-black border-2 rounded-lg p-8 max-w-4xl mx-8 my-12">
         {/* header */}
         <div class="flex justify-between">
           <div class="">TRAINER CARD</div>
