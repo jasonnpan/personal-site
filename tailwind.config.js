@@ -9,7 +9,7 @@ module.exports = {
         babyblue: '#F6FBFF',
         tearblue: '#90CAF9',
         darkblue: '#1976D2',
-        mintteal: '#3CAEA3',
+        forestgreen: '#226F68',
       },
       fontFamily: {
         oxygen: ['Oxygen Mono', 'sans-serif']
