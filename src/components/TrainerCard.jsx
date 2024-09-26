@@ -2,13 +2,13 @@ import React from "react";
 
 function TrainerCard() {
   return (
-    <div className="mx-auto p-2 md:p-8">
+    <div class="mx-auto p-2 md:p-8">
       <div class="flex justify-center font-oxygen">
-        <div class="bg-babyblue opacity-80 border-black border-2 rounded-lg max-w-4xl mx-8 mt-12 p-6 md:p-8">
+        <div class="bg-babyblue opacity-80 border-navyblue border-2 rounded-lg max-w-4xl mx-8 mt-12 p-6 md:p-8">
           {/* header */}
           <div class="flex flex-col gap-4 items-center justify-center md:flex-row md:justify-between">
             <div class="text-xl text-center">TRAINER CARD</div>
-            <div class="bg-tearblue flex gap-4 px-6 py-2 rounded-md border-black border text-xs w-fit justify-center">
+            <div class="bg-tearblue flex gap-4 px-6 py-2 rounded-md border-navyblue border text-xs w-fit justify-center">
               <div class="hover:underline cursor-pointer">resume</div>
               <div class="">|</div>
               <a
@@ -41,7 +41,7 @@ function TrainerCard() {
           {/* pfp + main intro */}
           <div class="flex flex-col md:flex-row">
             {/* replace this with an image later */}
-            <div class="bg-tearblue h-full w-full md:h-32 md:w-32 aspect-square flex justify-center rounded-md border-black border my-6 mr-8 md:flex-none" />
+            <div class="bg-tearblue h-full w-full md:h-32 md:w-32 aspect-square flex justify-center rounded-md border-navyblue border my-6 mr-8 md:flex-none" />
 
             <div class="flex flex-col md:pt-5">
               <div class="text-xl">jason pan 🌱</div>

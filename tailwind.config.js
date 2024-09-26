@@ -9,6 +9,7 @@ module.exports = {
         babyblue: '#F6FBFF',
         tearblue: '#90CAF9',
         darkblue: '#1976D2',
+        navyblue: '#173F5F',
         forestgreen: '#226F68',
       },
       fontFamily: {
