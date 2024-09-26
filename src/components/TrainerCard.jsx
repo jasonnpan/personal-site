@@ -4,7 +4,7 @@ function TrainerCard() {
   return (
     <div class="mx-auto p-2 md:p-8">
       <div class="flex justify-center font-oxygen">
-        <div class="bg-babyblue opacity-80 border-navyblue border-2 rounded-lg max-w-4xl mx-8 mt-12 p-6 md:p-8">
+        <div class="bg-babyblue opacity-80 border-navyblue border-2 rounded-lg max-w-4xl mx-2 mt-12 p-6 sm:mx-8 md:p-8">
           {/* header */}
           <div class="flex flex-col gap-4 items-center justify-center md:flex-row md:justify-between">
             <div class="text-xl text-center">TRAINER CARD</div>
