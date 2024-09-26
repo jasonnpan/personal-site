@@ -2,9 +2,9 @@ import React from "react";
 
 function TrainerCard() {
   return (
-    <div className="max-w-screen-lg mx-auto p-4 md:p-8">
+    <div className="mx-auto p-2 md:p-8">
       <div class="flex justify-center font-oxygen">
-        <div class="bg-babyblue opacity-80 border-black border-2 rounded-lg max-w-4xl mx-8 my-12 p-6 md:p-8">
+        <div class="bg-babyblue opacity-80 border-black border-2 rounded-lg max-w-4xl mx-8 mt-12 p-6 md:p-8">
           {/* header */}
           <div class="flex flex-col gap-4 items-center justify-center md:flex-row md:justify-between">
             <div class="text-xl text-center">TRAINER CARD</div>
@@ -61,8 +61,7 @@ function TrainerCard() {
               <div class="text-xs pt-4 pb-12 md:pb-6">
                 I'm a <span class="text-darkblue">software engineer</span> +{" "}
                 <span class="text-forestgreen">design fanatic</span> who's
-                passionate about crafting compelling user experiences. In my
-                free time, I enjoy reading + playing with plugins on figma!
+                passionate about crafting compelling user experiences.
               </div>
             </div>
           </div>
