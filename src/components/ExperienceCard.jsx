@@ -8,7 +8,7 @@ function ExperienceCard({ logo, companyName, role, time }) {
 
           {/* card content */}
           <div class="flex flex-row gap-4 items-center justify-between w-full">
-            <div class="bg-tearblue h-12 w-12 aspect-square flex justify-center rounded-md border-navyblue border md:flex-none" />
+            <img src={logo} alt={'logo'} class="bg-tearblue h-12 w-12 aspect-square flex justify-center rounded-md border-navyblue border md:flex-none" />
             <div class="flex flex-col flex-grow flex-shrink pl-2">
               <div class="text-sm pb-2">{companyName}</div>
               <div class="text-xs">{role}</div>

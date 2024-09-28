@@ -1,4 +1,5 @@
 import React from "react";
+import ProfilePic from "../assets/pfp.png";
 
 function TrainerCard() {
   return (
@@ -40,8 +41,8 @@ function TrainerCard() {
 
           {/* pfp + main intro */}
           <div class="flex flex-col md:flex-row">
-            {/* replace this with an image later */}
-            <div class="bg-tearblue h-full w-full md:h-32 md:w-32 aspect-square flex justify-center rounded-md border-navyblue border my-6 mr-8 md:flex-none" />
+
+            <img src={ProfilePic} alt={"me and pikachu :D"} class="bg-tearblue h-full w-full md:h-32 md:w-32 aspect-square flex justify-center rounded-md border-navyblue border my-6 mr-8 md:flex-none" />
 
             <div class="flex flex-col md:pt-5">
               <div class="text-xl">jason pan 🌱</div>
