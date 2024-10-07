@@ -1,5 +1,6 @@
 import React from "react";
 import ProfilePic from "../assets/pfp.png";
+import Resume from "../pdfs/JasonPanResume.pdf";
 
 function TrainerCard() {
   return (
@@ -10,7 +11,14 @@ function TrainerCard() {
           <div class="flex flex-col gap-4 items-center justify-center md:flex-row md:justify-between">
             <div class="text-xl text-center">TRAINER CARD</div>
             <div class="bg-tearblue flex gap-4 px-6 py-2 rounded-md border-navyblue border text-xs w-fit justify-center">
-              <div class="hover:underline cursor-pointer">resume</div>
+              <a
+                class="hover:underline cursor-pointer"
+                href={Resume}
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                resume
+              </a>
               <div class="">|</div>
               <a
                 class="hover:underline cursor-pointer"
@@ -41,8 +49,11 @@ function TrainerCard() {
 
           {/* pfp + main intro */}
           <div class="flex flex-col md:flex-row">
-
-            <img src={ProfilePic} alt={"me and pikachu :D"} class="bg-tearblue h-full w-full md:h-32 md:w-32 aspect-square flex justify-center rounded-md border-navyblue border my-6 mr-8 md:flex-none" />
+            <img
+              src={ProfilePic}
+              alt={"me and pikachu :D"}
+              class="bg-tearblue h-full w-full md:h-32 md:w-32 aspect-square flex justify-center rounded-md border-navyblue border my-6 mr-8 md:flex-none"
+            />
 
             <div class="flex flex-col md:pt-5">
               <div class="text-xl">jason pan 🌱</div>
