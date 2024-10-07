@@ -1,50 +1,18 @@
 import React from "react";
 import ProfilePic from "../assets/pfp.png";
-import Resume from "../pdfs/JasonPanResume.pdf";
+import ContactNavbar from "./ContactNavbar";
 
 function TrainerCard() {
   return (
-    <div class="mx-auto p-2 md:p-8">
+    <div
+      className="mx-auto p-2 md:p-8"
+    >
       <div class="flex justify-center font-oxygen">
         <div class="bg-babyblue opacity-80 border-navyblue border-2 rounded-lg max-w-4xl mx-2 mt-12 p-6 sm:mx-8 md:p-8">
           {/* header */}
           <div class="flex flex-col gap-4 items-center justify-center md:flex-row md:justify-between">
             <div class="text-xl text-center">TRAINER CARD</div>
-            <div class="bg-tearblue flex gap-4 px-6 py-2 rounded-md border-navyblue border text-xs w-fit justify-center">
-              <a
-                class="hover:underline cursor-pointer"
-                href={Resume}
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                resume
-              </a>
-              <div class="">|</div>
-              <a
-                class="hover:underline cursor-pointer"
-                href="https://github.com/jasonnpan"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                github
-              </a>
-              <div class="">|</div>
-              <a
-                class="hover:underline cursor-pointer"
-                href="https://www.linkedin.com/in/jasonpann/"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                linkedin
-              </a>
-              <div class="">|</div>
-              <a
-                class="hover:underline cursor-pointer"
-                href="mailto:j7pan@uwaterloo.ca"
-              >
-                email
-              </a>
-            </div>
+            <ContactNavbar />
           </div>
 
           {/* pfp + main intro */}
@@ -52,7 +20,7 @@ function TrainerCard() {
             <img
               src={ProfilePic}
               alt={"me and pikachu :D"}
-              class="bg-tearblue h-full w-full md:h-32 md:w-32 aspect-square flex justify-center rounded-md border-navyblue border my-6 mr-8 md:flex-none"
+              class={"bg-tearblue h-full w-full md:h-32 md:w-32 aspect-square flex justify-center rounded-md border-navyblue border my-6 mr-8 md:flex-none"}
             />
 
             <div class="flex flex-col md:pt-5">
@@ -112,6 +80,7 @@ function TrainerCard() {
               </a>
               <span class="text-darkblue">{" ]"}</span>
             </div>
+
             {/* fun courses */}
             <div class="text-xs">
               <span class="text-forestgreen">fun:{" [ "}</span>

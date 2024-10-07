@@ -3,7 +3,7 @@ import Blob1 from "../assets/Blob1.png";
 
 function BlobBackground() {
   return (
-    <div>
+    <div class="overflow-hidden">
       <img
         src={Blob1}
         alt="Blob 1"
