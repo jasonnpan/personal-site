@@ -83,8 +83,7 @@ function TrainerCard() {
             <div class="text-sm pb-2">RELEVANT COURSEWORK 🌿</div>
             {/* cs courses */}
             <div class="text-xs pb-2">
-              <span class="text-darkblue">cs:</span>
-              {" [ "}
+              <span class="text-darkblue">cs:{" [ "}</span>
               <a
                 class="hover:underline"
                 href="https://uwflow.com/course/cs240"
@@ -92,8 +91,8 @@ function TrainerCard() {
                 rel="noopener noreferrer"
               >
                 data structures
-              </a>{" "}
-              |{" "}
+              </a>
+              <span class="text-darkblue"> || </span>
               <a
                 class="hover:underline"
                 href="https://uwflow.com/course/cs136"
@@ -101,8 +100,8 @@ function TrainerCard() {
                 rel="noopener noreferrer"
               >
                 object-oriented programming
-              </a>{" "}
-              |{" "}
+              </a>
+              <span class="text-darkblue"> || </span>
               <a
                 class="hover:underline"
                 href="https://uwflow.com/course/cs241"
@@ -111,12 +110,11 @@ function TrainerCard() {
               >
                 intro to compilers
               </a>
-              {" ]"}
+              <span class="text-darkblue">{" ]"}</span>
             </div>
             {/* fun courses */}
             <div class="text-xs">
-              <span class="text-forestgreen">fun:</span>
-              {" [ "}
+              <span class="text-forestgreen">fun:{" [ "}</span>
               <a
                 class="hover:underline"
                 href="https://uwflow.com/course/psych101"
@@ -124,8 +122,8 @@ function TrainerCard() {
                 rel="noopener noreferrer"
               >
                 intro to psychology
-              </a>{" "}
-              |{" "}
+              </a>
+              <span class="text-forestgreen"> || </span>
               <a
                 class="hover:underline"
                 href="https://uwflow.com/course/korea101r"
@@ -133,8 +131,8 @@ function TrainerCard() {
                 rel="noopener noreferrer"
               >
                 intro to korean
-              </a>{" "}
-              |{" "}
+              </a>
+              <span class="text-forestgreen"> || </span>
               <a
                 class="hover:underline"
                 href="https://uwflow.com/course/engl108d"
@@ -143,7 +141,7 @@ function TrainerCard() {
               >
                 digital lives
               </a>
-              {" ]"}
+              <span class="text-forestgreen">{" ]"}</span>
             </div>
           </div>
 
