@@ -6,4 +6,6 @@
 
 Check it out [here](https://jasonpan.vercel.app/) 🌱
 
+Designed with [Figma](https://www.figma.com/design/kcOZRfL1oHZA6Al4Ubf3Q8/Jason's-Personal-Site?node-id=0-1&t=xx3e2NhJU8CkgE3P-1) 🎨
+
 Built with ❤️ + 🍵
