@@ -2,7 +2,7 @@ import React from "react";
 import ExperienceCard from "./ExperienceCard";
 
 import MicroartLogo from "../assets/experience/microart_logo.png";
-import DandelionLogo from "../assets/experience/dandelion_logo3.png";
+import DandelionLogo from "../assets/experience/dandelion_logo4.png";
 import NoToxLogo from "../assets/experience/notox_app_logo.png";
 import TrinityRoboticsLogo from "../assets/experience/trinity_robotics_logo.png";
 
@@ -14,7 +14,7 @@ function ExperienceSection() {
         logo={MicroartLogo}
         companyName={"MICROART SERVICES "}
         role={"Software Engineer Intern"}
-        time={"current"}
+        time={"fall 2024"}
       />
       <ExperienceCard
         logo={DandelionLogo}
