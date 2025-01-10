@@ -119,7 +119,7 @@ function TrainerCard() {
             <div class="text-sm pb-2">SKILLS 🧃</div>
             <div class="text-xs pb-2">
               <span class="text-darkblue">languages: </span>
-                c++, javascript, typescript, go, python, java, SQL, HTML/CSS
+                c++, typescript, javascript, go, python, java, SQL, HTML/CSS
             </div>
             <div class="text-xs pb-1">
               <span class="text-forestgreen">technologies: </span> 
@@ -131,7 +131,7 @@ function TrainerCard() {
           <div class="flex flex-col pb-8 md:pb-6">
             <div class="text-sm pb-2">INTERESTS 🍉</div>
             <div class="text-xs pb-2">
-              reading, tinkering on figma, intramural volleyball, walking
+              cooking, playing volleyball, tinkering on figma, watching travel vlogs
             </div>
           </div>
 
