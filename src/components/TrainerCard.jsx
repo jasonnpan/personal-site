@@ -118,12 +118,12 @@ function TrainerCard() {
           <div class="flex flex-col pb-8 md:pb-6">
             <div class="text-sm pb-2">SKILLS 🧃</div>
             <div class="text-xs pb-2">
-              <span class="text-darkblue">languages:</span> c++,
-              typescript/javascript, swift, obj-c, python, SQL
+              <span class="text-darkblue">languages: </span>
+                c++, javascript, typescript, go, python, java, SQL, HTML/CSS
             </div>
             <div class="text-xs pb-1">
-              <span class="text-forestgreen">technologies:</span> react, react
-              native, firebase, redux, android studio, xcode, supabase, mongoDB
+              <span class="text-forestgreen">technologies: </span> 
+                react/react native, firebase, supabase/postgreSQL, mongoDB/noSQL, node, express, next.js, redux
             </div>
           </div>
 
