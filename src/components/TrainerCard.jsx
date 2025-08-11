@@ -133,12 +133,15 @@ function TrainerCard() {
             <div class="text-sm pb-2">SKILLS 🧃</div>
             <div class="text-xs pb-2">
               <span class="text-darkblue">languages: </span>
-              c++, typescript, javascript, go, python, java, SQL, HTML/CSS
+              c++, kotlin, swift, typescript, javascript, go, python, java, SQL, html, css
             </div>
-            <div class="text-xs pb-1">
-              <span class="text-forestgreen">technologies: </span>
-              react/react native, firebase, supabase/postgreSQL, mongoDB/noSQL,
-              node, express, next.js, redux
+            <div class="text-xs pb-2">
+              <span class="text-forestgreen">frameworks: </span>
+              react, react native, swiftUI/UIKit, node.js, next.js, tailwind, redux
+            </div>
+            <div class="text-xs pb-2">
+              <span class="text-yellow-600">technologies: </span>
+              firebase, mongoDB/noSQL, supabase, postgreSQL, aws, mode, datadog, snowflake, jenkins, git
             </div>
           </div>
 
@@ -146,8 +149,7 @@ function TrainerCard() {
           <div class="flex flex-col pb-8 md:pb-6">
             <div class="text-sm pb-2">INTERESTS 🍉</div>
             <div class="text-xs pb-2">
-              cooking, playing volleyball, tinkering on figma, watching travel
-              vlogs
+              cooking, volleyball, tinkering on figma, watching travel vlogs
             </div>
           </div>
 
