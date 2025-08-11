@@ -1,6 +1,7 @@
 import React from "react";
 import ExperienceCard from "./ExperienceCard";
 
+import FaireLogo from "../assets/experience/fairewholesale_logo.png"
 import MicroartLogo from "../assets/experience/microart_logo.png";
 import DandelionLogo from "../assets/experience/dandelion_logo4.png";
 import NoToxLogo from "../assets/experience/notox_app_logo.png";
@@ -11,6 +12,12 @@ function ExperienceSection() {
     <div class="font-oxygen pt-8">
       <div class="flex justify-center text-xl">EXPERIENCE 🌱</div>
       <ExperienceCard
+        logo={FaireLogo}
+        companyName={"FAIRE"}
+        role={"Software Engineer Intern"}
+        time={"summer 2025"}
+      />
+      <ExperienceCard
         logo={MicroartLogo}
         companyName={"MICROART SERVICES "}
         role={"Software Engineer Intern"}
@@ -19,7 +26,7 @@ function ExperienceSection() {
       <ExperienceCard
         logo={DandelionLogo}
         companyName={"DANDELION NETWORKS"}
-        role={"Mobile Developer Intern"}
+        role={"Software Engineer Intern"}
         time={"winter 2024"}
       />
       <ExperienceCard
