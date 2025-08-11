@@ -26,7 +26,7 @@ function TrainerCard() {
 
             <div class="flex flex-col md:pt-5">
               <div class="text-xl">jason pan 🌱</div>
-              <div class="text-xs pt-4 w-full md:w-2/3">
+              <div class="text-sm pt-4 w-full md:w-2/3">
                 3rd year <span class="text-darkblue">computer science</span>{" "}
                 student @{" "}
                 <a
